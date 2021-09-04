@@ -1,30 +1,34 @@
-<template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+<template>  
+  <div class="grid grid-cols-12">
+    <div class="col-span-4">
+      <div class="justify-center flex bg-yellow-300 items-start">
+        <div class="text-sm">
+          Hello 👋🏼
+        </div>
+      </div>
+    </div>
+    <div class="col-span-4">
+      <div class="justify-center flex bg-yellow-300 items-start">
+        <div class="text-sm">
+          Hello 👋🏼
+        </div>
+      </div>
+    </div>
+    <div class="col-span-4">
+      <div class="justify-center flex bg-yellow-300 items-start">
+        <div class="text-sm">
+          Hello 👋🏼
+        </div>
+      </div>
+    </div>
+    <div class="col-span-4">
+      <div class="justify-center flex bg-yellow-300 items-start">
+        <div class="text-sm">
+          Hello 👋🏼
+        </div>
+      </div>
+    </div>
   </div>
-  <router-view />
+  <!-- <router-view /> -->
 </template>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+<style></style>
